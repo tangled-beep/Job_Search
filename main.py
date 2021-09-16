@@ -16,7 +16,7 @@ def job_search(sc):
 
     #defines connection / http error
     print(results)
-    s.enter(5, 1, job_search, (sc, ))
+    s.enter(5, 1, job_search, (sc))
 
 
 
